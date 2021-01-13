@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">HIPPO</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUHLTjQ1wuUK5+Oh4lE5v6wAAAAACAAAAAAADZgAAwAAAABAAAACLY2Hxetx2t8YINYu/WvOeAAAAAASAAACgAAAAEAAAAFKxzpvaoDGnOx+DHdD1NRmIAAAAWQSnLdckhqVFkraPMvRe8sjnAENCUV1IsOqwOXjdiYz2YknwB/XD8jDn/mXma72Q7Lsl1iZeOULwad3eUE4Xp0BabuZYBKi7cdIo3MnwcbpsM0ZxTMyoUqe9QKc503bCyn27/DhNuGe3IMIvL97ELdRpFHnKk+iSp/tYKzoT6fElgX2ejwwqjRQAAABeG3Lx/pWn7kOMFiTAgsuAdPw9TQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUHLTjQ1wuUK5+Oh4lE5v6wAAAAACAAAAAAADZgAAwAAAABAAAABdMi9TulTtaH3FAu5W/jkKAAAAAASAAACgAAAAEAAAABnTB/F6Hx1dcFIroFgwJmqIAAAAYeiU9xMLzY/B3cKCRl/M7Pd9ElkzVb4EyTdqsJjiBNU9KN7V7bJoPAR6cV/EyorVR5u0ulR097gN/RXXY+B30Jy5IXnCbgUAUfL64wVzlGXJQKGrCY0XzP5Lcm9b1yEx6zXlZpm+ZnGU6RaSoNglg2YcUhBOzJuWttmFLIBCIxRPZYYBS4YdJBQAAACf7U2czgOi2VNGfTK3tlPqcruHTg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="LoadFlatFile.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="LoadXLSFile.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -42,10 +43,27 @@
                 <SSIS:Property SSIS:Name="Name">LoadFlatFile</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">15</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">18</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{1F03A2C5-F113-49FA-8A98-F9D17A309539}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4299EEA3-5E09-4CD4-B9EA-06B7D60436EB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="LoadXLSFile.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{277BF412-0D7B-4F99-B4D0-83203F00B4A0}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">LoadXLSFile</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">19</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{B0E01C81-9A24-49FE-A155-09FC8005E17C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
