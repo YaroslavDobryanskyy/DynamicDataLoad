@@ -1,17 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1321
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DynamicDataLoadSSIS", "DynamicDataLoadSSIS\DynamicDataLoadSSIS.dtproj", "{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DynamicDataLoadDB", "DynamicDataLoadDB\DynamicDataLoadDB.sqlproj", "{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Development|Default.ActiveCfg = Development
-		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Development|Default.Build.0 = Development
+		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Debug|Any CPU.ActiveCfg = Development
+		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Debug|Any CPU.Build.0 = Development
+		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Development|Any CPU.ActiveCfg = Development
+		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Development|Any CPU.Build.0 = Development
+		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Release|Any CPU.ActiveCfg = Development
+		{30E7A5C7-675F-4B17-8BCD-7F37A59955BB}.Release|Any CPU.Build.0 = Development
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E8557C-C5BB-4AC8-ACD4-C5F40EA80B7E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

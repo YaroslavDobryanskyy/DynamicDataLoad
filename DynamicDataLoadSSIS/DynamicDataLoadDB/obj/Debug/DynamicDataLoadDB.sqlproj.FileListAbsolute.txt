@@ -1,0 +1,6 @@
+D:\learning\DynamicDataLoad\DynamicDataLoadSSIS\DynamicDataLoadDB\bin\Debug\DynamicDataLoadDB.dacpac
+D:\learning\DynamicDataLoad\DynamicDataLoadSSIS\DynamicDataLoadDB\bin\Debug\DynamicDataLoadDB.dll
+D:\learning\DynamicDataLoad\DynamicDataLoadSSIS\DynamicDataLoadDB\bin\Debug\DynamicDataLoadDB.pdb
+D:\learning\DynamicDataLoad\DynamicDataLoadSSIS\DynamicDataLoadDB\obj\Debug\DynamicDataLoadDB.sqlprojAssemblyReference.cache
+D:\learning\DynamicDataLoad\DynamicDataLoadSSIS\DynamicDataLoadDB\obj\Debug\DynamicDataLoadDB.dll
+D:\learning\DynamicDataLoad\DynamicDataLoadSSIS\DynamicDataLoadDB\obj\Debug\DynamicDataLoadDB.pdb
