@@ -9,7 +9,8 @@
 						@NumberColumns      -- Number of columns after firts column to be extracted 
 						@TargetTableName    -- Target table where fragment of found selection will be copied 
 										    
-	Description:		
+	Description:		Stored procedure search fist occurance of text @ColumnName in @SourceTableName and after copy dataset 
+						to @TargetTableName	
 
 						
 	Created by:			Yaroslav Dobryanskyy
