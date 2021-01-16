@@ -2,18 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>DynamicDataLoadSSIS</Name>
-    <LastWriteTime>2021-01-12T12:57:15.1020142Z</LastWriteTime>
+    <LastWriteTime>2021-01-12T20:38:50.6472509Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>LoadFlatFile.dtsx</Name>
-      <LastWriteTime>2021-01-12T12:57:15.0606175Z</LastWriteTime>
+      <LastWriteTime>2021-01-14T18:35:29.3754735Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>LoadXLSFile.dtsx</Name>
-      <LastWriteTime>2021-01-12T12:57:15.0851056Z</LastWriteTime>
+      <LastWriteTime>2021-01-16T13:41:33.0715283Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
