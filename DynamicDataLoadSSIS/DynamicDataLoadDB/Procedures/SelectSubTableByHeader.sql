@@ -1,4 +1,29 @@
 ﻿
+/*===================================================================================================================================================
+
+	Procedure:			dbo.SelectSubTableByHeader
+
+	Parameters:			
+						@SourceTableName	-- Source Table that is creating from LoadXLSFile package	  
+						@ColumnName			-- Column header to be found ( first column header name)
+						@NumberColumns      -- Number of columns after firts column to be extracted 
+						@TargetTableName    -- Target table where fragment of found selection will be copied 
+										    
+	Description:		
+
+						
+	Created by:			Yaroslav Dobryanskyy
+	Created on:			2021-01-16
+------------------------------------------------------------------------------------------------------------------------------------------------------
+	Sample calls:  
+
+		EXEC  dbo.SelectSubTableByHeader 
+			@SourceTableName = 'CUSTOMER_SHEET1', @ColumnName = 'CustomerID', @NumberColumns = 4 , @TargetTableName = 'Customer'
+
+		SELECT * FROM Cusromer
+
+=====================================================================================================================================================*/
+
 CREATE PROCEDURE [dbo].[SelectSubTableByHeader]
 (
   @SourceTableName nvarchar(100)	
